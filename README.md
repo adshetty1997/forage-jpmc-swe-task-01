@@ -9,5 +9,5 @@ STEPS TO SETUP PYTHON ENV:
 
 STEPS TO CREATING A GIT PATCH FILE:
 - Command 'git format-patch -n "name"' where 
-    -> name = user_specific_name|HEAD(commit message)  OR "name" can be replaced with "–stdout > file_name.patch"
+    -> name = user_specific_name|HEAD(commit message)  OR "name" can be replaced with "–-stdout > file_name.patch"
     -> n = number of commits to patch(starting from the latest).
